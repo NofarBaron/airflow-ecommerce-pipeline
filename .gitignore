@@ -23,3 +23,5 @@ credentials/
 
 # Docker
 *.pid
+
+PERSONAL_NOTES.md
