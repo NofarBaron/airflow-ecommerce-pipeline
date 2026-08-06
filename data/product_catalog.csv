@@ -1,0 +1,501 @@
+product_id,product_name,category,price
+PROD-0001,Open Beaautiful,clo, 32309.95
+PROD-0002,Race Third,automotive,47346.82
+PROD-0003,MEAN YOUR,3l3ctronics,-100
+PROD-0004,Consumer Newspaper,toys,28506.95
+PROD-0005,A Hot,clothing,19165.58
+PROD-0006,How Over,clothing,2215.4
+PROD-0007,Each Attorney,home,49101.1
+PROD-0008,Idea Institution,clothing,20599.53
+PROD-0009,Billion Animal,electronics,27710.51
+PROD-0010,By Speaak,clothing_,0
+PROD-0011,Development How,home,38495.28
+PROD-0012, Bit Its,electronics , 35426.08
+PROD-0013,Appear Position,toys,46067.97
+PROD-0014,Ahead Once,sports,26010.64
+PROD-0015,Mrs Audience,electronics,29803.79
+PROD-0016,StartWear,hom3,"1,200"
+PROD-0017,Daughter Speech,home,30310.1
+PROD-0018,current agreement,CLOTHING,0
+PROD-0019,Section Drive ,sports ,NaN
+PROD-0020,StockYard,,"1,200"
+PROD-0021,Station Purpose,automotive,40642.04
+PROD-0022,Information Will,beauty,41128.19
+PROD-0023,Magazine Health6,SPORTS,0
+PROD-0024, Nature While,aut,NaN
+PROD-0025, Allow Physical,clo,NaN
+PROD-0026,BringOffice,TOYS,NaN
+PROD-0027,Decade Detail,electronics,37907.67
+PROD-0028,Campaign Either,home,17246.0
+PROD-0029,Police Alone,kitchen,8088.09
+PROD-0030,Business Still,kitchen,49986.32
+PROD-0031,Century Old!,kitchen ,"1,200"
+PROD-0032,HoldBefore,bea,-100
+PROD-0033,Peace Magazine,kitchen,27304.07
+PROD-0034,Southern Fall ,bea,466.48
+PROD-0035,Level Tax,beauty,25140.45
+PROD-0036,Yard Participant,toys,41290.36
+PROD-0037,Control Test,home,15382.44
+PROD-0038,Show Game,electronics,25286.66
+PROD-0039,News Likely,toys,34384.6
+PROD-0040,Night Successful,hom,0
+PROD-0041,Subject Loss,home,7213.78
+PROD-0042,Inside Road,automotive,42744.27
+PROD-0043,BABY SOMETIMES,,0
+PROD-0044,Smile Order,electronics,4769.44
+PROD-0045,Lawyer Real,toys,9810.24
+PROD-0046,Wall People,beauty,47459.54
+PROD-0047,AIR SON,HOME,0
+PROD-0048,Glass Top,kitchen,34102.67
+PROD-0049,Population Those,beauty,36516.08
+PROD-0050,Election Guy,sports,37081.98
+PROD-0051,Dream Off,beauty,19765.78
+PROD-0052,Nice Plan,home,30261.37
+PROD-0053,Forget College,automotive,39616.46
+PROD-0054,Too Far,clothing,46571.32
+PROD-0055,Glass Financial,beauty,12065.69
+PROD-0056,HERSELF BAG,toys,"1,200"
+PROD-0057,Open Choice,,7067.35
+PROD-0058, Reflect Them,SPORTS,"1,200"
+PROD-0059,Fact Offer,sports,18500.33
+PROD-0060,Face Organization,automotive,16331.66
+PROD-0061,Pull War,clothing,49448.58
+PROD-0062,Choose A,beauty,15412.88
+PROD-0063,Have What,automotive,30868.72
+PROD-0064,Show Price,TOYS,0
+PROD-0065,Official Talk,clothing,38958.87
+PROD-0066,Perform Notice,home,48172.72
+PROD-0067,ONCE OWN,b3auty,"1,200"
+PROD-0068,Class Morning,clothing,16740.25
+PROD-0069,Whose Identify,beauty ,327124.57
+PROD-0070,Thaat Gun,bea,-100
+PROD-0071,My Employee7,CLOTHING,"1,200"
+PROD-0072,Food Per,kitchen,17559.72
+PROD-0073,ago mouth,ELECTRONICS,-100
+PROD-0074,Water Painting ,,46482.66 
+PROD-0075,Involve Right,clothing,40476.32
+PROD-0076,Alone Describe,SPORTS,NaN
+PROD-0077,DesignDemocratic,home_,"1,200"
+PROD-0078,DifferentCharacter,kitch3n,NaN
+PROD-0079, Project Life,ELECTRONICS,32660.43 
+PROD-0080,Top Page ,toy,NaN
+PROD-0081,South City,kitchen,28109.74
+PROD-0082,Evening Mrs,sports,9950.52
+PROD-0083,Activity Between!,kitchen-,-100
+PROD-0084,Pass Leader,electronics,17910.72
+PROD-0085,DealWorry,automotive_,-100
+PROD-0086,Change Consider,clothing,41450.04
+PROD-0087,Tough Response ,toys,-100
+PROD-0088,Edge Side,sports,20912.84
+PROD-0089,Forward Event,clothing,43838.0
+PROD-0090,Rest Whatever,kitchen,4459.16
+PROD-0091,CENTURY SHOW,clothing, 45637.6
+PROD-0092,Production Front,toys,24604.88
+PROD-0093,Site Himself,sports,44789.91
+PROD-0094,City Indicate!,kit,NaN
+PROD-0095,Your Up,sports,45881.34 
+PROD-0096,Drop Point,electronics,41058.72
+PROD-0097,Society Little,beauty,27265.71
+PROD-0098,Structure Create,automotive,45707.56
+PROD-0099,Bank Word,clothing,17261.44
+PROD-0100,Mrs Claim,kitchen,6277.16
+PROD-0101,Effect Relate,automotive,107.85
+PROD-0102,Kid Forward ,,125124.2
+PROD-0103,Successful Sea,kitchen,2328.95
+PROD-0104,Suddenly Try,electronics,48399.57
+PROD-0105,Republicaan Reaal,KITCHEN,NaN
+PROD-0106,Per Onto,toys,1914.85
+PROD-0107,Drive Action,sports,44693.31
+PROD-0108,Various Someone,sports,30063.79
+PROD-0109,Head She,beauty,42301.44
+PROD-0110,Send West,beauty,30644.68
+PROD-0111,Name Heavy,home,13286.79
+PROD-0112,Hope Nation,automotive,44282.43
+PROD-0113,May Gas,automotive,48622.83
+PROD-0114,ever audience,HOME,176192.7
+PROD-0115,Word Church,clothing,20780.63
+PROD-0116,Food Significant,kitchen,7411.37
+PROD-0117,Movement Long,kitchen,41153.98
+PROD-0118, Practice Late,hom, 2918.06
+PROD-0119,Pressure Prepare,beauty,18789.28
+PROD-0120,Key Glass,home,10468.41
+PROD-0121,Give Buy,clothing,16133.37
+PROD-0122,Start Production,automotive,14622.56
+PROD-0123,Energy Trade,electronics,2610.28
+PROD-0124,Western Play,kitchen,6835.42
+PROD-0125,Clearly Even1,hom3, 17613.3
+PROD-0126,Training Build,beauty,13419.88
+PROD-0127,GOOD EACH,3l3ctronics,0
+PROD-0128,Single Choose,clothing,46080.56
+PROD-0129,Mission Reach,electronics,7005.53
+PROD-0130,Cover Say,beauty,24270.06
+PROD-0131,My Produce,beauty,4841.52
+PROD-0132,baby blue,,NaN
+PROD-0133,Cover Everybody3,BEAUTY,282832.98
+PROD-0134,Hard Thought,clothing,38791.5
+PROD-0135,Student Positive,home,31781.67
+PROD-0136,As Too,beauty,15727.35
+PROD-0137,That Account,toys,24839.33
+PROD-0138,WOMAN PATTERN,beauty , 16435.2
+PROD-0139,Campaign Table,home,30965.67
+PROD-0140,Right Perhaps,kitchen,26967.27
+PROD-0141,Physical Great!,kitchen ,0
+PROD-0142,Sometimes Finish,beauty,28351.68
+PROD-0143,Down Resource,sports,21798.26
+PROD-0144,Everybody Policy,beauty,33373.49
+PROD-0145,Exist Data,clothing,31826.34
+PROD-0146,Push Arm,electronics,41038.34
+PROD-0147,Read Inside,kitchen,45160.61
+PROD-0148,Onto Pattern,beauty,28252.98
+PROD-0149,Lead Senior7,,-100
+PROD-0150,Stage Federal,toys,23349.91
+PROD-0151,Or Exactly,clothing,19852.22
+PROD-0152,Reflect Friend,sports,22564.57
+PROD-0153,Decade Week,clothing,17514.81
+PROD-0154,factor low,,"1,200"
+PROD-0155,Process Week,,5227.9 
+PROD-0156,Pull Realize6,3l3ctronics,NaN
+PROD-0157,Arm Help,kitchen,4022.36
+PROD-0158,Agency Somebody,kitchen,34370.95
+PROD-0159,Night Site,kitchen,15879.6
+PROD-0160,Tend See,electronics,22699.58
+PROD-0161,Past Man,clothing,36231.03
+PROD-0162,On Church,home,29911.04
+PROD-0163,Same Usually,sports,32701.07
+PROD-0164,Score Professional,sports,44380.58
+PROD-0165,Bit Them,sports,45646.44
+PROD-0166,Reason That,kitchen,9784.54
+PROD-0167,Include Instead,clothing,6180.38
+PROD-0168,You Hard,automotive,35460.14
+PROD-0169,Key Appear,electronics,37036.2
+PROD-0170,Year Behavior,kitchen,43403.13
+PROD-0171,Under Through,clothing,7242.96
+PROD-0172,State Field,home,15956.59
+PROD-0173,behavior talk,toys ,-100
+PROD-0174,Black While ,toys-,0
+PROD-0175,Wide Work,kitchen,38221.21
+PROD-0176,Network Late,home,49067.76
+PROD-0177,million of,hom,-100
+PROD-0178,Hope War,electronics,21863.71
+PROD-0179,Benefit Environment,beauty,31858.42
+PROD-0180,Building Great,beauty,5879.51
+PROD-0181,Series Hit,toys,0
+PROD-0182,Whose Son,toys,23807.07
+PROD-0183,NaturalAhead,beauty_,NaN
+PROD-0184,Tend Thousand,kitchen,8040.12
+PROD-0185,Carry Off,sports,13433.0
+PROD-0186,Save Machine5,clo,-100
+PROD-0187,Who Food,kitchen,12172.79
+PROD-0188,Budget Guy,automotive,14373.66
+PROD-0189,Even Event,home,44247.8
+PROD-0190,Capital Represent,automotive,39819.92
+PROD-0191,Middle Ability,home,33517.86
+PROD-0192,Service Probably,beauty,48606.96
+PROD-0193,SomebodyFree,3l3ctronics,851374.78
+PROD-0194,FINISH RATE,kit,2015.77 
+PROD-0195,Especiaally Answer,hom3,"1,200"
+PROD-0196,Activity Relate,beauty,1654.76
+PROD-0197,According Serve,clothing,13464.95
+PROD-0198,Fly Floor,kitchen,42787.69
+PROD-0199,Realize Learn,sports,17723.43
+PROD-0200,Always Conference,clothing,38531.53
+PROD-0201,Too Side,automotive,25853.77
+PROD-0202,Hotel Wall,beauty,24191.97
+PROD-0203,Office Give,toys,4515.77
+PROD-0204, Plant Hear,,-100
+PROD-0205,RADIO CENTER,clothing ,-100
+PROD-0206,Throughout Century,toys,27985.29
+PROD-0207,Claim Position,sports,9298.36
+PROD-0208,Teacher Easy,automotive,11267.36
+PROD-0209,evidence ahead,SPORTS,33873.65 
+PROD-0210,REASON MOMENT,ELECTRONICS,-100
+PROD-0211,Value Maybe,clothing,45286.5
+PROD-0212,Maany Crime,b3auty,34244.7 
+PROD-0213,Defense Economic,toys,35234.26
+PROD-0214,Population Street,toys,32606.85
+PROD-0215,Boy Join,toys,30341.67
+PROD-0216,Short While,automotive,24696.86
+PROD-0217,Fast Choice,home,43362.89
+PROD-0218,By Reveal,kitchen,11855.78
+PROD-0219,Fall Test,electronics,47748.28
+PROD-0220,Experience Edge,automotive,42079.88
+PROD-0221,Art Kid,,"1,200"
+PROD-0222,Technology Nice,home,3483.63
+PROD-0223,OnceCell,,NaN
+PROD-0224,How Rate,automotive,23741.71
+PROD-0225,Product Sea,sports,46136.28
+PROD-0226,Discover Detail,automotive,35962.42
+PROD-0227,Answer Myself,beauty,20201.08
+PROD-0228,Week Television*,beauty_,0
+PROD-0229,Can Fund,home,20611.16
+PROD-0230,Try Might2,AUTOMOTIVE,-100
+PROD-0231,Film Include,toys,36842.76
+PROD-0232,According Approach!,hom,NaN
+PROD-0233,Wall Firm,automotive,21018.01
+PROD-0234,Century Agency,home,37954.89
+PROD-0235,Democratic He,home,19115.98
+PROD-0236,Use Choose,toys,9958.25
+PROD-0237,Executive Field,automotive,34015.65
+PROD-0238,Term Stuff,ele,20240.19 
+PROD-0239,program administration,beauty ,"1,200"
+PROD-0240,Card Back,automotive,8265.85
+PROD-0241,Will Chair,toys,20988.21
+PROD-0242,Rock Act,beauty,41273.9
+PROD-0243,Chair Difficult,clothing,3085.85
+PROD-0244,Class Memory,sports,2384.29
+PROD-0245,Sort We,kitchen,34829.88
+PROD-0246,Prepare Pattern,home,26927.16
+PROD-0247,Yard Church,sports,23587.67
+PROD-0248,Big Official ,KITCHEN,0
+PROD-0249,Approach Democrat,clothing,28084.7
+PROD-0250,Soldier Reason ,TOYS,NaN
+PROD-0251,One Class,sports,29693.37
+PROD-0252,Report Brother,beauty,46688.8
+PROD-0253,Attack Stand,beauty,21758.36
+PROD-0254,Full Democrat9,hom,NaN
+PROD-0255,Prove History,sports,23214.81
+PROD-0256,Car Former,clothing,44233.28
+PROD-0257,Participant Serious,clothing,23760.36
+PROD-0258,Join Model,sports,8401.42
+PROD-0259,Employee Computer,beauty,17907.7
+PROD-0260,Generation Tv,clothing,47450.39
+PROD-0261,One Daughter,toys,30381.48
+PROD-0262,PresentDiscuss,CLOTHING,"1,200"
+PROD-0263, Fly Nothing,,"1,200"
+PROD-0264,Dinner Follow,electronics,5761.87
+PROD-0265,Former Stop,sports,531.27
+PROD-0266,PurposeClose,3l3ctronics,0
+PROD-0267, Our Management,clothing-,NaN
+PROD-0268,Hold Learn,toys,45245.54
+PROD-0269, Along Property,b3auty,608998.87
+PROD-0270,Control Region,home,2490.39
+PROD-0271,Center Would,home,26097.59
+PROD-0272,ByProvide,sports,243490.31
+PROD-0273,Dark Yeah,home,18098.75
+PROD-0274,Society Anyone,electronics,10776.06
+PROD-0275,Tend Green,toys,32343.23
+PROD-0276,Five Weight,sports,6513.9
+PROD-0277,Ready Certainly,sports,18374.4
+PROD-0278,Other Science ,automotiv3,46391.68 
+PROD-0279, Note Democratic,kit,339232.0
+PROD-0280,Maybe Move,kitchen,42760.0
+PROD-0281,Job Man ,TOYS,NaN
+PROD-0282,poor protect,TOYS, 11178.69
+PROD-0283,But Individual,electronics,5114.17
+PROD-0284,State Thank,automotive,20092.82
+PROD-0285,Fund Little,sports,6660.24
+PROD-0286,Career Tell,toys,8437.92
+PROD-0287,Call Hard,toys,907.85
+PROD-0288,Consumer White,automotive,29532.38
+PROD-0289,Study Third,automotive,27638.38
+PROD-0290,Build Product,clothing,7264.72
+PROD-0291,Raadio Paast,kitchen ,NaN
+PROD-0292,Ground Body,kitchen,18789.86
+PROD-0293,Perhaps After,clothing,6332.51
+PROD-0294,Quickly Act,home,6851.29
+PROD-0295,Every Base,automotive,4149.21
+PROD-0296,This True,automotive,37531.35
+PROD-0297,Shoulder Foreign,toys,24344.17
+PROD-0298,Right Sign,clothing,177.65
+PROD-0299,Us South,clothing,23325.12
+PROD-0300,Record Tend,clothing,38186.58
+PROD-0301,Fill Free,home,41706.1
+PROD-0302, Century Above,,306211.03
+PROD-0303,Long Name,kitchen,43311.67
+PROD-0304,Whatever Within,electronics,40188.61
+PROD-0305,Weight Avoid ,,"1,200"
+PROD-0306,Shake Organization,electronics,23899.93
+PROD-0307,Development Piece,electronics,48814.04
+PROD-0308,And Ground,clothing,28415.05
+PROD-0309,Ready Cell,beauty,48713.89
+PROD-0310,Night Sell,home,41946.38
+PROD-0311,National Health,toys,24354.51
+PROD-0312,Very Recent,beauty,23918.94
+PROD-0313,Professor Reaach,clothing,63352.27
+PROD-0314,Whatever Goal,electronics,12697.19
+PROD-0315,While Oil,home,21684.09
+PROD-0316,Entire Day,toys,49137.99
+PROD-0317,Present Sister*,3l3ctronics,NaN
+PROD-0318,CallCan,, 2851.82
+PROD-0319,Year Maintain,beauty,8856.33
+PROD-0320,Section Cultural,clothing,19552.14
+PROD-0321, People Approach,CLOTHING,"1,200"
+PROD-0322,SitNear,clothing_,NaN
+PROD-0323,Force Trip5,toys,"1,200"
+PROD-0324,success quality,SPORTS,-100
+PROD-0325,TaskBlood,kitch3n,30787.92 
+PROD-0326,Charge Scene,kitchen,589.77
+PROD-0327,Will Difficult,electronics,38815.48
+PROD-0328,From Cover,kitchen,6857.01
+PROD-0329,Smile Must,automotive,23092.51
+PROD-0330, Lead Then,, 7342.53
+PROD-0331,Course Industry,beauty,31368.97
+PROD-0332,Memory Camera!,kit, 23041.73
+PROD-0333,Fear South ,,-100
+PROD-0334,Something Study2,kitch3n,5209.51 
+PROD-0335,cup compare,HOME,"1,200"
+PROD-0336,Dark People*,home-,"1,200"
+PROD-0337,UsePull,sports-, 1934.91
+PROD-0338,Quite Artist,beauty,35749.99
+PROD-0339,Leave Always,toys,19797.99
+PROD-0340,War Sell,automotive,49557.81
+PROD-0341,Carry Public,beauty,30155.75
+PROD-0342,forget character,,34607.69 
+PROD-0343,But Black,kitchen,12200.83
+PROD-0344,Kind Social,beauty,853.67
+PROD-0345,Mission Personal,home,36063.76
+PROD-0346,Lawyer Maybe,sports,43512.56
+PROD-0347,More Car,toys,37122.99
+PROD-0348,Style Force ,3l3ctronics,-100
+PROD-0349,Financial Collection,clothing,35973.14
+PROD-0350,Hot Executive,automotive,2014.0
+PROD-0351,Art Research,kitchen,25795.96
+PROD-0352,Picture News,clothing,9452.51
+PROD-0353,PAPER BENEFIT,HOME,"1,200"
+PROD-0354,Heart They,automotive,48467.98
+PROD-0355,Food Eight,beauty,26512.11
+PROD-0356,Leg Less,toys,8089.85
+PROD-0357,few option,automotiv3,-100
+PROD-0358,Rich Each,home,38319.2
+PROD-0359,Value Collection,kitchen,44954.01
+PROD-0360,Think Light,automotive,46932.66
+PROD-0361,Style What,home,33191.64
+PROD-0362,Employee Religious*,KITCHEN,0
+PROD-0363,Decision Resource@,clothing-,NaN
+PROD-0364,Color Fast,toys,46898.45
+PROD-0365,Among Treatment,kitchen,37538.37
+PROD-0366,Expect When,sports,4482.88
+PROD-0367,Even Among,toys,27133.51
+PROD-0368,Successful Quality,sports,6504.96
+PROD-0369,Development First,beauty,22268.48
+PROD-0370,Join Chair,sports,47377.36
+PROD-0371,Almost Follow,automotive,6469.91
+PROD-0372,Bit Exist ,,14889.02 
+PROD-0373,Teach Five,electronics,12422.01
+PROD-0374,Total Program,kitchen,8661.32
+PROD-0375,STORY FUTURE,,10673.5 
+PROD-0376,Health Likely,kitchen,40046.87
+PROD-0377,Break Speech,sports,32690.13
+PROD-0378,Raange Term,ele,-100
+PROD-0379,Mission Name,home,24696.42
+PROD-0380,Nice Coach,kitchen,6749.04
+PROD-0381,Meeting History,beauty,722.96
+PROD-0382,LANGUAGE BEHIND,,NaN
+PROD-0383,Car Large,clothing,37448.51
+PROD-0384,Require Goal,electronics,43713.59
+PROD-0385,Natural Perform7,hom3,47053.18 
+PROD-0386,Our Tax,clothing,19085.32
+PROD-0387,Build Republican,beauty,1494.24
+PROD-0388,Film Writer,electronics,45341.37
+PROD-0389,ITEM OPERATION,hom3,0
+PROD-0390,Particular Here,electronics,42198.43
+PROD-0391,Crime Herself,kitchen,32472.41
+PROD-0392,ThusLook,ELECTRONICS, 40162.79
+PROD-0393,Door Suffer,electronics,14148.77
+PROD-0394,Happy Research,toys,22861.74
+PROD-0395,Work Across3,SPORTS,11452.87 
+PROD-0396,Myself Indicate,electronics,43522.18
+PROD-0397,Bill Western,kitchen,47911.43
+PROD-0398,Just Pattern,toys,32319.79
+PROD-0399,Charge Reveal,beauty,683.51
+PROD-0400,Anyone Including,electronics,41411.4
+PROD-0401,Sea Gas,sports,26585.69
+PROD-0402,Position Yet,beauty,3268.99
+PROD-0403,Star Threat,home,317.91
+PROD-0404,Without However,kitchen,16038.84
+PROD-0405,Reach Yourself,automotive,29199.22
+PROD-0406,Least Police,toys,16283.68
+PROD-0407, Report Less,,"1,200"
+PROD-0408,Minute With,automotive,28196.05
+PROD-0409,Must Determine1,CLOTHING,47127.75 
+PROD-0410,Trial Animal ,,"1,200"
+PROD-0411,Official Enough ,KITCHEN,-100
+PROD-0412,Economic Nearly,beauty,13777.7
+PROD-0413,Across Approach,sports,44678.45
+PROD-0414,Magazine Thought,clothing,2842.24
+PROD-0415,SixRealize,ele,0
+PROD-0416,paper among,clothing, 14240.4
+PROD-0417,Break Value,electronics,38918.01
+PROD-0418,Top Drug,,-100
+PROD-0419,Authority North,home,39205.01
+PROD-0420,Event Glass,kitchen,34636.51
+PROD-0421,Weight Wall,automotive,37575.45
+PROD-0422,Manager Matter,kitchen,18176.12
+PROD-0423,Animal Street,electronics,44421.64
+PROD-0424,Have Win2,,"1,200"
+PROD-0425,Support Management,clothing,17179.23
+PROD-0426,Serve Republican,home,35107.32
+PROD-0427,Central International ,,29565.08 
+PROD-0428,Enjoy Cell,kitchen,30789.99
+PROD-0429,Interesting Evening,sports,11476.87
+PROD-0430,Window Dark,sports,15640.49
+PROD-0431,Its Of,clothing,38177.48
+PROD-0432,LookBenefit,3l3ctronics, 47999.98
+PROD-0433,Industry Since,clothing,34558.78
+PROD-0434,No Daark,bea,0
+PROD-0435,Hour Particularly,sports,20269.8
+PROD-0436,Minute Kind,beauty,38144.13
+PROD-0437,Evidence Participant,kitchen,47981.79
+PROD-0438,Necessary Will,electronics,41229.92
+PROD-0439,ECONOMIC SONG,beauty-,NaN
+PROD-0440,On Move,kitchen,31196.01
+PROD-0441,EFFORT I,toys,-100
+PROD-0442,Everything Inside,automotive,38688.66
+PROD-0443,Decide Knowledge,kitchen,11977.38
+PROD-0444,Marriage Response,beauty,38286.74
+PROD-0445,World Not,automotive,28862.43
+PROD-0446,Really Amount,automotive,18520.51
+PROD-0447,International Rich,sports,18841.83
+PROD-0448,Cultural Amount,automotive,32212.88
+PROD-0449,Scene Society,electronics,5693.81
+PROD-0450,Live Community,sports,20291.33
+PROD-0451,Prevent Idea ,KITCHEN,"1,200"
+PROD-0452,KindAbility,home_,"1,200"
+PROD-0453,Court That,sports,986.61
+PROD-0454,Already Of,kitchen,16012.47
+PROD-0455,Offer Business,home,16316.19
+PROD-0456,Ask Full,kitch3n,"1,200"
+PROD-0457,Form Any,electronics,35821.87
+PROD-0458,Control Where,kitchen,12048.06
+PROD-0459,Pay Focus,electronics,13919.1
+PROD-0460,Same Much,electronics,40634.52
+PROD-0461,Walk Deep,clothing,13242.87
+PROD-0462,Note Floor,TOYS,"1,200"
+PROD-0463,Good Market,automotive,17038.68
+PROD-0464,Still Trip,automotive,15143.6
+PROD-0465,Feeling Plan ,clothing-,258123.41
+PROD-0466,factor need,electronics_,-100
+PROD-0467,Summer Book,automotive,30800.55
+PROD-0468,Option Fill,electronics,25862.82
+PROD-0469,However Policy,sports,26006.62
+PROD-0470,Republican Professor,automotive,19709.93
+PROD-0471,Gun Personaal,automotiv3,461639.73
+PROD-0472,First Case,home,33858.14
+PROD-0473,world lay,electronics_,"1,200"
+PROD-0474,Couple Learn,toys,14075.18
+PROD-0475,Foot Effect,toys,2907.99
+PROD-0476,Model Support,clothing,"1,200"
+PROD-0477,Result Response,toys,12458.28
+PROD-0478,Group Major4,,-100
+PROD-0479,Pretty Bag,clothing,1140.97
+PROD-0480,UsuallyHear,clo,-100
+PROD-0481,Away May,home,30687.08
+PROD-0482,Surface Happy,home,14010.4
+PROD-0483,Computer South,home,49754.25
+PROD-0484,Technology Work1,,NaN
+PROD-0485,Catch Help,electronics,30414.37
+PROD-0486, Soon Person,sports, 18857.19
+PROD-0487,Where At,clothing,42308.56
+PROD-0488,Drug Radio,beauty,30364.53
+PROD-0489,Kitchen Policy,clothing,16823.92
+PROD-0490,Detail Option,toys,12394.09
+PROD-0491,TruthAvoid,KITCHEN,29534.44 
+PROD-0492,Threat Score3,sports ,"1,200"
+PROD-0493,Change Much,toys,30879.65
+PROD-0494,Camera Apply,clothing,35049.75
+PROD-0495,Building Picture9,,0
+PROD-0496,Friend Act ,KITCHEN,NaN
+PROD-0497,Camera About,clothing,21618.53
+PROD-0498,ONE CONCERN,automotive ,3640.63 
+PROD-0499,Boy Pattern,kitchen,16782.32
+PROD-0500,Develop Hundred,beauty,28577.06

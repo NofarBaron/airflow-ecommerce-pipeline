@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Airflow
+logs/
+airflow.cfg
+
+# Credentials
+credentials/
+*.json
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+
+# Docker
+*.pid
