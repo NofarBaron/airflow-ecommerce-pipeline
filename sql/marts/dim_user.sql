@@ -34,7 +34,7 @@ order_summary AS (
                 ELSE 0 
             END
         ) AS refunded_orders
-    FROM `my-project-284-493514.ecommerce_data.orders`
+    FROM `my-project-284-493514.ecommerce_data.stg_orders`
     GROUP BY customer_id
 )
 SELECT
