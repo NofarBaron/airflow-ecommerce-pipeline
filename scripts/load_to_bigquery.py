@@ -10,7 +10,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = (
     "/opt/airflow/credentials/service_account.json"
 )
 
-def upload_csv(file_path, table_name):
+def upload_csv(file_path, table_name,ingest_run_id):
     client = bigquery.Client()
 
     table_id = f"{PROJECT_ID}.{DATASET}.{table_name}"
@@ -18,10 +18,14 @@ def upload_csv(file_path, table_name):
     logging.info(f"Loading {file_path}")
 
     df = pd.read_csv(file_path)
+    df["ingest_run_id"] = ingest_run_id
+    df["ingested_at"] = pd.Timestamp.now(tz="UTC")
 
     job_config = bigquery.LoadJobConfig(
-    write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE
-)
+            write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE,
+            autodetect=True,
+
+    )
 
     job = client.load_table_from_dataframe(
         df,
@@ -32,5 +36,6 @@ def upload_csv(file_path, table_name):
     job.result()
 
     logging.info(
-        f"Loaded {len(df)} rows into {table_name}"
+        f"Loaded {len(df)} rows into {table_name} "
+        f"for ingestion run {ingest_run_id}"
     )
