@@ -27,7 +27,8 @@ def task_failure_alert(context):
         DAG: {task_instance.dag_id}
         Task: {task_instance.task_id}
         Run: {task_instance.run_id}
-        Exception: {logging.exception}
+        Logical Date: {task_instance.logical_date}
+        Try Number: {task_instance.try_number}
         """
     )
 
@@ -44,6 +45,7 @@ default_args = {
     schedule="0 2 * * *", ##to run every day at 2:00, but for testing we can set it to None
     catchup=False,
     default_args=default_args,
+    dagrun_timeout=timedelta(hours=1),
     tags=["bigquery", "ecommerce"],
 )
 
