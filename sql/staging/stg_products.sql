@@ -8,7 +8,9 @@ WITH cleaned AS (
             TRIM(
                 REGEXP_REPLACE(category, r'[^a-zA-Z0-9]', '')
             )
-        ) AS cleaned_category
+        ) AS cleaned_category,
+        ingest_run_id,
+        ingested_at
         
 
 FROM `my-project-284-493514.ecommerce_data.product_catalog` 
