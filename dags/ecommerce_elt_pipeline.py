@@ -66,18 +66,18 @@ def ecommerce_pipeline():
 
 
     @task
-    def upload_table(file_name: str, table_name: str, ingest_run_id: str):
+    def upload_table(file_name: str, table_name: str):
         logging.info(f"Uploading {table_name}")
         file_path = DATA_DIR / file_name
-        upload_csv(str(file_path), table_name, ingest_run_id)
+        upload_csv(str(file_path), table_name)
 
 
     # =========================  Ingestion ========================= 
     with TaskGroup(group_id="ingestion") as ingestion:
-        orders = upload_table.override(task_id="upload_orders")("orders.csv","orders",ingest_run_id)
-        customers = upload_table.override(task_id="upload_customers")("customers.csv","customers",ingest_run_id)
-        products = upload_table.override(task_id="upload_products")("product_catalog.csv", "product_catalog",ingest_run_id)
-        events = upload_table.override(task_id="upload_events")("clickstream_events_sample.csv","events_sample",ingest_run_id)
+        orders = upload_table.override(task_id="upload_orders")("orders.csv","orders")
+        customers = upload_table.override(task_id="upload_customers")("customers.csv","customers")
+        products = upload_table.override(task_id="upload_products")("product_catalog.csv", "product_catalog")
+        events = upload_table.override(task_id="upload_events")("clickstream_events_sample.csv","events_sample")
 
 
     # =========================  Validation ========================= 
