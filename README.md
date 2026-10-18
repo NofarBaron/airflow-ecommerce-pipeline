@@ -6,6 +6,8 @@ This project demonstrates an end-to-end ELT pipeline orchestrated with Apache Ai
 
 The pipeline ingests raw CSV files into BigQuery, validates the loaded data, transforms it through multiple SQL layers, and builds analytical tables following a warehouse architecture.
 
+
+
 The goal of the project is to demonstrate production-oriented Data Engineering concepts including:
 
 - Apache Airflow orchestration
@@ -38,6 +40,38 @@ Fact Tables
 Mart Tables
 ```
 
+# Airflow DAG
+
+```
+ecommerce_elt_pipeline
+
+├── Ingestion
+│   ├── upload_orders
+│   ├── upload_customers
+│   ├── upload_products
+│   └── upload_events
+│
+├── Validation
+│
+├── Staging
+│   ├── stg_orders
+│   ├── stg_customers
+│   ├── stg_products
+│   └── stg_events
+│
+├── Facts
+│   └── fact_events
+│
+└── Marts
+    ├── dim_user
+    ├── dim_session
+    └── dim_payers
+```
+
+The Airflow DAG is organized into five Task Groups:
+
+Ingestion → Validation → Staging → Facts → Marts
+
 ---
 
 ## Technologies
@@ -55,18 +89,19 @@ Mart Tables
 ## Project Structure
 
 ```
-.
+airflow-ecommerce-pipeline/
 ├── dags/
+├── config/
 ├── scripts/
 ├── sql/
 │   ├── staging/
 │   ├── facts/
-│   ├── marts/
-│   └── analysis/
-├── config/
+│   └── marts/
 ├── data/
 ├── credentials/
-└── logs/
+├── docker-compose.yaml
+├── Dockerfile
+└── requirements.txt
 ```
 
 ---
@@ -75,24 +110,24 @@ Mart Tables
 
 ### 1. Data Ingestion
 
-Raw CSV files are uploaded into BigQuery using Python.
+CSV files are loaded into BigQuery raw tables.
 
-Uploaded tables include:
+Each ingestion receives:
 
-- orders
-- customers
-- product_catalog
-- events_sample
+- ingest_run_id — identifies the ingestion batch
+
+- ingested_at — ingestion timestamp
 
 ---
 
-### 2. Validation
+### 2. Data Quality
 
-After ingestion, validation ensures:
+The pipeline validates the raw data before transformations:
+- Row count checks(Ensures that required tables are not empty.)
+- Required NULL checks
+- Duplicate key checks (Uniqueness is checked where a business key is expected to be unique.)
 
-- Raw tables exist
-- Required tables contain data
-- Pipeline stops if validation fails
+The pipeline fails when a critical data-quality check fails.
 
 ---
 
@@ -100,50 +135,141 @@ After ingestion, validation ensures:
 
 SQL transformations clean and standardize raw data.
 
-Examples:
+- Data type conversions
+- Timestamp parsing
+- Status normalization
+- Product category cleaning
+- Event type normalization
 
-- Type conversions using SAFE_CAST
-- Timestamp normalization
-- Status standardization
-- Data quality filtering
+Example:
+```
+Raw orders
+    │
+    ├── order_amount → FLOAT64
+    ├── order_date → TIMESTAMP
+    ├── status → standardized values
+    └── quantity → validated integer
+    │
+    ▼
+stg_orders
+```
 
 ---
 
 ### 4. Warehouse Layer
 
-Fact table:
+The transformed staging data is used to create analytical tables.
+
+### Fact
 
 - fact_events
 
-Mart tables:
+Contains event-level information for analytical queries.
+
+### Dimensions / Marts
 
 - dim_user
+
+Contains customer-level metrics such as:
+
+Total spending
+Order counts
+Refunded orders
+
 - dim_session
+
+Contains session-level information.
+
 - dim_payers
 
----
-
-## Airflow DAG
-
-The pipeline is orchestrated using Airflow TaskFlow API together with BigQuery operators.
-
-Task dependencies ensure:
-
-```
-Upload
-   ↓
-Validation
-   ↓
-Staging
-   ↓
-Facts
-   ↓
-Marts
-```
-
-Independent tasks execute in parallel whenever possible.
+Contains payer-related information based on orders.
 
 ---
+# Reliability
+
+The pipeline includes:
+
+- Task retries with a 5-minute delay
+- Failure callbacks
+- Airflow logging
+- Daily scheduling
+- Historical backfills
+
+## Retries
+
+Tasks that interact with BigQuery use retries:
+
+```
+retries=2
+retry_delay=timedelta(minutes=5)
+```
+
+
+This allows temporary failures to recover automatically.
+## Scheduling
+
+- The pipeline is configured to run every day at 02:00 (0 2 * * *)
+
+- Catchup is disabled (catchup=False)
+
+This prevents Airflow from automatically creating all historical scheduled runs.
+
+## Backfills
+
+Historical DAG runs can be created using Airflow's backfill functionality.
+
+Example:
+```
+docker compose exec airflow-scheduler airflow backfill create \
+  --dag-id ecommerce_elt_pipeline \
+  --from-date 2026-08-22 \
+  --to-date 2026-08-23
+```
+
+Backfills allow the current DAG logic to be executed for historical logical dates.
+
+## Incremental Loading
+The pipeline is designed to support incremental processing using ingest_run_id and ingested_at.
+
+The current development version uses WRITE_TRUNCATE because the source data consists of complete CSV files.
+
+In production, the raw layer could use WRITE_APPEND, followed by incremental processing using MERGE.
+
+
+
+---
+
+## Production architecture
+In production, raw ingestion could use append-based loading:
+```
+New Source Batch
+       │
+       ▼
+WRITE_APPEND
+       │
+       ▼
+Raw Historical Data
+       │
+       ├── ingest_run_id
+       └── ingested_at
+       │
+       ▼
+Identify New / Changed Records
+       │
+       ▼
+MERGE
+   ┌───┴────┐
+   ▼        ▼
+MATCHED  NOT MATCHED
+   │        │
+UPDATE    INSERT
+   └───┬────┘
+       ▼
+   Staging
+```
+
+
+
 
 ## Design Decisions
 
@@ -153,12 +279,3 @@ Independent tasks execute in parallel whenever possible.
 - SQL transformations are stored separately from DAG logic.
 - Airflow orchestrates execution while BigQuery performs transformations.
 
----
-
-## Future Improvements
-
-- Task Groups
-- Incremental loading using MERGE
-- Data quality checks
-- Automatic scheduling
-- Notifications and monitoring
