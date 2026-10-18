@@ -1,0 +1,14 @@
+flowchart LR
+
+    events_sample[events_sample] --> stg_events[stg_events]
+    stg_events --> fact_events[fact_events]
+
+    orders[orders] --> stg_orders[stg_orders]
+    
+    fact_events --> dim_sessions[dim_sessions]
+    fact_events --> dim_users[dim_users]
+    stg_orders --> dim_users
+
+    stg_orders --> dim_payers[dim_payers]
+
+    products[products] --> stg_products[stg_products]
